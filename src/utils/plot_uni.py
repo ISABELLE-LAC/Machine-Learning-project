@@ -1,3 +1,8 @@
+import seaborn as sns
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
 def analyse_univarie(data, var_quant, var_qual):
     """cette fonction prend en entrée une base de donnée et la liste des variables quantitative, et la liste des variable qualitative et 
     retourne les statistique descriptives
